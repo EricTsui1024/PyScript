@@ -9,17 +9,10 @@ from requests_toolbelt.multipart.encoder import MultipartEncoder
 def get_access_token(server_url):
     url = '/sitdealerdesktop/api/Token'
 
-    # user_password = {
-    #     'username': 'zhajiab',
-    #     'password': 'Zjb19860327_',
-    #     'Scope': '-1',
-    #     'grant_type': 'password'
-    # }
-
     user_password = {
-        'username': 'xu fen',
-        'password': 'Abcd065063!',
-        'Scope': '9210',
+        'username': 'xxxx',
+        'password': 'xx!',
+        'Scope': 'xxx',
         'grant_type': 'password'
     }
 
@@ -350,7 +343,7 @@ def submit_application(server_url, headers, root_dir):
 
 if __name__ == "__main__":
 
-    server_url = 'http://mbafc.bamboonetworks.com'
+    server_url = 'xxxxxxxxxxxxxxxxx'
     root_dir = os.getcwd() + '/test_cases/'
     root_dir = root_dir.replace('\\', '/')
 

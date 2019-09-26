@@ -5,7 +5,7 @@ from selenium.common.exceptions import TimeoutException
 from selenium.webdriver.support.ui import Select
 import time
 
-npos_url = 'http://mbafc.bamboonetworks.com/sitdealerdesktop/#!/login'
+npos_url = 'http://xxxxxxx/sitdealerdesktop/#!/login'
 user_name = 'xu fen'
 pwd = 'a1!'
 pin = '1234'

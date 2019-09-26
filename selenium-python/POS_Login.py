@@ -6,9 +6,9 @@ from selenium.webdriver.support.ui import Select
 import time
 
 npos_url = 'http://xxxxxxx/sitdealerdesktop/#!/login'
-user_name = 'xu fen'
-pwd = 'a1!'
-pin = '1234'
+user_name = 'xxx'
+pwd = 'xx!'
+pin = 'xxx'
 
 browser = webdriver.Chrome()
 browser.get(npos_url)
